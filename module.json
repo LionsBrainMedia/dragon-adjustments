@@ -1,0 +1,38 @@
+{
+  "id": "dragon-adjustments",
+  "title": "Dragon Adjustments",
+  "description": "Foundry support for Dragon Adjustments, by Lion's Brain Media.",
+  "version": "1.0",
+  "authors": [
+    {"name": "W. Brian Lane" 
+    }
+  ],
+  "compatibility": {
+    "minimum": "11.315",
+    "verified": "11.315"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "5.10.3"
+      }
+    }]
+  },
+  "packs": [
+    {
+      "label": "Dragon Adjustments",
+      "type": "Item",
+      "name": "dragon-adjustments",
+      "path": "./packs/dragon-adjustments.db",
+      "system": "pf2e",
+      "package": "dragon-adjustments",
+      "private": false
+    }
+],
+  "url": "https://github.com/LionsBrainMedia/dragon-adjustments",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/dragon-adjustments/master/module.json",
+  "download": "https://github.com/LionsBrainMedia/dragon-adjustments/archive/refs/heads/main.zip"
+}
